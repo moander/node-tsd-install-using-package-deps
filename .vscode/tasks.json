@@ -1,0 +1,31 @@
+{
+    "version": "0.1.0",
+	"command": "node_modules/.bin/gulp",
+    "args": [
+        "--no-color"
+    ],
+    "isShellCommand": true,
+	"echoCommand": true,
+    "tasks": [
+		{
+			"taskName": "babel",
+			"isBuildCommand": true,
+			"isWatching": false
+		},
+		{
+			"taskName": "watch",
+			"isWatching": true,
+			"isBuildCommand": false
+		},
+		{
+			"taskName": "test",
+			"isWatching": false,
+			"isBuildCommand": false
+		},
+		{
+			"taskName": "clean",
+			"isWatching": false,
+			"isBuildCommand": false
+		}
+	]
+}

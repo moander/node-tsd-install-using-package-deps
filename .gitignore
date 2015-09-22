@@ -1,0 +1,10 @@
+node_modules/
+typings/
+lib/
+
+tsd-debug.log
+node-debug.log
+tsd.json
+.DS_Store
+
+

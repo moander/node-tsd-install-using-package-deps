@@ -1,0 +1,35 @@
+{
+	"version": "0.1.0",
+	"configurations": [
+		{
+			"name": "node src/index.js",
+			"type": "node",
+			"program": "lib/index.js",
+			"stopOnEntry": true,
+			"args": [],
+			"cwd": ".",
+			"runtimeArgs": [],
+
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"sourceMaps": true,
+			"outDir": "lib"
+		},
+		{
+			"name": "mocha test/simple.js",
+			"type": "node",
+			"runtimeExecutable": "mocha",
+			"program": "test/simple.js",
+			"stopOnEntry": true,
+			"args": [],
+			"cwd": ".",
+			"runtimeArgs": [],
+
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"sourceMaps": false,
+		}
+	]
+}
